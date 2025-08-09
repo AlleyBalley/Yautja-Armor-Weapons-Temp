@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[@Name="ABYautja_Race"]/alienRace/raceRestriction</xpath>
+		<value>
+		<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+		<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
+		<onlyBuildRaceRestrictedBuildings>false</onlyBuildRaceRestrictedBuildings>
+			<researchList>
+                <li>
+                    <projects>
+						<li>ABYautja_Tech_T1</li>
+						<li>ABYautja_Tech_T2</li>
+						<li>ABYautja_Tech_T3</li>
+						<li>ABYautja_Tech_Melee_T1</li>
+						<li>ABYautja_Tech_Melee_T2</li>
+						<li>ABYautja_Tech_Ranged_T1</li>
+						<li>ABYautja_Tech_Ranged_T2</li>
+						<li>ABYautja_Tech_Ranged_T3</li>
+						<!--li>ABYautja_Tech_MediComp</li>
+						<li>ABYautja_Tech_HealthShard</li-->
+						<li>ABYautja_Tech_CloakGenerator</li>
+						<li>ABYautja_Traps</li>
+                    </projects>
+                </li>
+            </researchList>
+			<conceptList>
+				<li>ABConcept_Gauntlet</li>
+				<li>ABConcept_Wistblade</li>
+				<li>ABConcept_SelfDestruct</li>
+				<li>ABConcept_Cloak</li>
+				<li>ABConcept_Plasmacaster</li>
+				<li>ABConcept_SmartDisk</li>
+				<li>ABConcept_CombiStaff</li>
+			</conceptList>
+			<buildingList>
+			  <li>ABYautja_TableMachining</li>
+			  <li>ABTrapSpike</li>
+			</buildingList>
+			<apparelList>
+				<li>ABYautja_Armor_BioMaskLight</li>
+				<li>ABYautja_Armor_ChestplateLight</li>
+				<li>ABYautja_Armor_BioMask</li>
+				<li>ABYautja_Armor_Chestplate</li>
+				<li>ABYautja_Armor_Greaves</li>
+				<li>ABYautja_Armor_ChestplateHeavy</li>
+				<li>ABYautja_Armor_BioMaskElite</li>
+				<li>ABYautja_Armor_ChestplateElite</li>
+				<li>ABYautja_Armor_BioMaskOrnate</li>
+				<li>ABYautja_Armor_ChestplateOrnate</li>
+				<li>ABYautja_Apparel_AdvancedThermalMesh</li>
+				<li>ABYautja_Apparel_ThermalMesh</li>
+				<li>ABYautja_Apparel_TribalCloak</li>
+				<li>ABYautja_Armor_BioMaskFalconer</li>
+			</apparelList>
+			<weaponList>
+				<li>ABYautja_Melee_CeremonialDagger</li>
+				<li>ABYautja_Melee_Combistaff</li>
+				<li>ABYautja_Melee_HandScythe</li>
+				<li>ABYautja_Melee_BladedMaul</li>
+				<li>ABYautja_Melee_Glaive</li>
+				<li>ABYautja_Gun_Hunting_Bow</li>
+				<li>ABYautja_Gun_Bolt</li>
+				<li>ABBullet_Needlegun</li>
+				<li>ABYautja_Gun_Shuriken</li>
+				<li>ABYautja_Gun_Compound_Bow</li>
+				<li>ABYautja_Gun_Blaster</li>
+				<li>ABYautja_Gun_Speargun</li>
+				<li>ABYautja_Gun_SpearRifle</li>
+				<li>ABYautja_Gun_Burner</li>
+				<li>ABYautja_Gun_SmartDisk</li>
+			</weaponList>
+			<whiteApparelList>
+					<li>Apparel_ShieldBelt</li>
+					<li>Apparel_SmokepopBelt</li>
+					<li>Apparel_FirefoampopPack</li>
+					<li>Apparel_PsychicShockLance</li>
+					<li>Apparel_PsychicInsanityLance</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PackJump</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PackBroadshield</li>
+					<li MayRequire="Ludeon.Rimworld.Biotech">Apparel_HeavyShield</li>
+					<li MayRequire="Ludeon.Rimworld.Biotech">Apparel_PackControl</li>
+					<li MayRequire="Ludeon.Rimworld.Biotech">Apparel_PackBandwidth</li>
+					<li MayRequire="Ludeon.Rimworld.Biotech">Apparel_PackTox</li>
+					<li MayRequire="Ludeon.Rimworld.Ideology">Apparel_Bandolier</li>
+					<li MayRequire="Ludeon.Rimworld.Anomaly">Apparel_DisruptorFlarePack</li>
+					<li MayRequire="Ludeon.Rimworld.Anomaly">Grenade_DisruptorFlare</li>
+					<li MayRequire="Ludeon.Rimworld.Anomaly">Apparel_PackTurret</li>
+					<li MayRequire="Ludeon.Rimworld.Anomaly">Apparel_DeadlifePack</li>
+					<li MayRequire="Ludeon.Rimworld.Anomaly">Apparel_ShardPsychicShockLance</li>
+					<li MayRequire="Ludeon.Rimworld.Anomaly">Apparel_ShardPsychicInsanityLance</li>
+					<li MayRequire="Ludeon.Rimworld.Anomaly">Apparel_BiomutationLance</li>
+					<li MayRequire="Ludeon.Rimworld.Odyssey">Apparel_PackHunter</li>
+					<li MayRequire="Ludeon.Rimworld.Odyssey">Grenade_HunterPack</li>
+					<li MayRequire="Ludeon.Rimworld.Odyssey">Apparel_CerebrexNode</li>
+
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_Gunlink</li>
+					<li MayRequire="Ludeon.Rimworld.Biotech">Apparel_AirwireHeadset</li>
+					<li MayRequire="Ludeon.Rimworld.Biotech">Apparel_ArrayHeadset</li>
+					<li MayRequire="Ludeon.Rimworld.Biotech">Apparel_IntegratorHeadset</li>
+
+					<li>Apparel_WarMask</li>
+					<li>Apparel_WarVeil</li>
+					<li>Apparel_ClothMask</li>
+					<li MayRequire="Ludeon.Rimworld.Ideology">Apparel_VisageMask</li>
+					<li MayRequire="Ludeon.Rimworld.Ideology">Apparel_Blindfold</li>
+					<li MayRequire="Ludeon.Rimworld.Biotech">Apparel_GasMask</li>
+					<li MayRequire="Ludeon.Rimworld.Anomaly">Apparel_CultistMask</li>
+
+					<li>Apparel_TribalA</li>
+					<li>Apparel_Pants</li>
+					<li>Apparel_Duster</li>
+					<li>Apparel_Jacket</li>
+					<li>Apparel_Parka</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PsyfocusVest</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_PsyfocusRobe</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_Corset</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_VestRoyal</li>
+					<li MayRequire="Ludeon.Rimworld.Royalty">Apparel_RobeRoyal</li>
+					<li MayRequire="Ludeon.Rimworld.Ideology">Apparel_Collar</li>
+					<li MayRequire="Ludeon.Rimworld.Ideology">Apparel_BodyStrap</li>
+					<li MayRequire="Ludeon.Rimworld.Ideology">Apparel_Sash</li>
+					<li MayRequire="Ludeon.Rimworld.Anomaly">Apparel_LabCoat</li>
+
+					<li>Apparel_FlakVest</li>
+					<li>Apparel_FlakPants</li>
+					<li>Apparel_FlakJacket</li>
+					<li MayRequire="Ludeon.Rimworld.Odyssey">Apparel_Vacsuit</li>
+
+					<li MayRequire="Ludeon.Rimworld.Biotech">Apparel_KidPants</li>
+					<li MayRequire="Ludeon.Rimworld.Biotech">Apparel_KidTribal</li>
+					<li MayRequire="Ludeon.Rimworld.Odyssey">Apparel_VacsuitChildren</li>
+			 </whiteApparelList>
+            <recipeList>
+					<li>ABYautja_SmithWristblade</li>
+					<li>ABYautja_SmithLongWristblade</li>
+					<li>ABYautja_CraftShifter</li>
+					<li>ABYautja_CraftComponentYautja</li>
+					
+					<!--li>Make_ABYautja_Apparel_TribalMask</li>
+					<li>Make_ABYautja_Apparel_ThermalMesh</li>
+					<li>Make_ABYautja_Apparel_AdvancedThermalMesh</li>
+					<li>Make_ABYautja_Apparel_TribalCloak</li>
+					<li>Make_ABYautja_Armor_ChestplateLight</li>
+					<li>Make_ABYautja_Armor_Chestplate</li>
+					<li>Make_ABYautja_Armor_Greaves</li>
+					<li>Make_ABYautja_Armor_ChestplateHeavy</li>
+					<li>Make_ABYautja_Armor_BioMask</li>
+					<li>Make_ABYautja_Armor_ChestplateElite</li>
+					<li>Make_ABYautja_Armor_BioMaskElite</li>
+					<li>Make_ABYautja_Armor_ChestplateOrnate</li>
+					<li>Make_ABYautja_Armor_BioMaskOrnate</li>
+					<li>Make_ABYautja_Armor_BioMaskFalconer</li-->
+					
+					<li>Make_ABYautja_Utility_CloakingBelt</li>
+					<li>Make_ABYautja_Utility_PlasmaCaster</li>
+					
+					<li>Make_ABYautja_Melee_CeremonialDagger</li>
+					<li>Make_ABYautja_Melee_Combistaff</li>
+					<li>Make_ABYautja_Melee_HandScythe</li>
+					<li>Make_ABYautja_Melee_BladedMaul</li>
+					<li>Make_ABYautja_Melee_Glaive</li>
+					<li>Make_ABYautja_Gun_Hunting_Bow</li>
+					<li>Make_ABYautja_Gun_Bolt</li>
+					<!--li>Make_ABYautja_Gun_Needlegun</li-->
+					<li>Make_ABYautja_Gun_Shuriken</li>
+					<li>Make_ABYautja_Gun_Compound_Bow</li>
+					<li>Make_ABYautja_Gun_Blaster</li>
+					<li>Make_ABYautja_Gun_Speargun</li>
+					<li>Make_ABYautja_Gun_SpearRifle</li>
+					<li>Make_ABYautja_Gun_Burner</li>
+					<li>Make_ABYautja_Gun_SmartDisk</li>
+					
+					<li>ABYautja_SwapLTribalWristbladeDualR</li>
+					<li>ABYautja_SwapRTribalWristbladeDualL</li>
+					<li>ABYautja_SwapLTribalWristbladeSingleR</li>
+					<li>ABYautja_SwapRTribalWristbladeSingleL</li>
+					<li>ABYautja_SwapLTribalWristbladeLongR</li>
+					<li>ABYautja_SwapRTribalWristbladeLongL</li>
+					<li>ABYautja_SwapLTechWristbladeDualR</li>
+					<li>ABYautja_SwapRTechWristbladeDualL</li>
+					<li>ABYautja_SwapLTechWristbladeSingleR</li>
+					<li>ABYautja_SwapRTechWristbladeSingleL</li>
+					<li>ABYautja_SwapLTechWristbladeLongR</li>
+					<li>ABYautja_SwapRTechWristbladeLongL</li>
+					
+					<li>ABYautja_InstallLeftTribalSingleWristblade</li>
+					<li>ABYautja_InstallLeftTribalDualWristblade</li>
+					<li>ABYautja_InstallLeftTribalLongWristblade</li>
+					<li>ABYautja_InstallRightTribalSingleWristblade</li>
+					<li>ABYautja_InstallRightTribalDualWristblade</li>
+					<li>ABYautja_InstallRightTribalLongWristblade</li>
+					<li>ABYautja_InstallLeftTechSingleWristblade</li>
+					<li>ABYautja_InstallLeftTechDualWristblade</li>
+					<li>ABYautja_InstallLeftTechLongWristblade</li>
+					<li>ABYautja_InstallRightTechSingleWristblade</li>
+					<li>ABYautja_InstallRightTechDualWristblade</li>
+					<li>ABYautja_InstallRightTechLongWristblade</li>
+            </recipeList>
+		</value>
+	</Operation>
+</Patch>
